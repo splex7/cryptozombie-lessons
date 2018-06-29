@@ -116,7 +116,7 @@ material:
 
 `external`은 함수가 컨트랙트 바깥에서만 호출될 수 있고 컨트랙트 내의 다른 함수에 의해 호출될 수 없다는 점을 제외하면 `public`과 동일하지. 나중에 `external`과 `public`이 각각 왜 필요한지 살펴 볼 것이네. 
 
-`interal`이나 `external` 함수를 선언하는 건 `private`과 `public` 함수를 선언하는 구문과 동일하네:
+`internal`이나 `external` 함수를 선언하는 건 `private`과 `public` 함수를 선언하는 구문과 동일하네:
 
 ```
 contract Sandwich {
